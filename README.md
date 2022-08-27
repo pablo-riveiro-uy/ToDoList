@@ -1,3 +1,8 @@
+# Hola, mi nompre es Pablo Riveiro 
+
+estoy construyendo un pequeño portafolio. Esta es una de las primeras apps web que construyo.
+A continuaci{o ninformaci{on de React para poder desplegar  el proyecto.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
