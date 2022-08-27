@@ -1,0 +1,29 @@
+
+body {
+
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.container{
+  margin: auto;
+  width: 40%;
+
+  border: 2px solid rgb(224, 85, 201);
+  border-radius: 5%;
+  background-color: #9e9393;
+  padding: 20px;
+  color: aliceblue;
+  box-shadow: 5px 8px 10px rgb(82, 82, 82) ;
+  
+}
+
+.add-btn{
+  float: right;
+  background-color: rgb(231, 67, 67);
+  color: aliceblue;
+  border-radius: 3%;
+}
+
