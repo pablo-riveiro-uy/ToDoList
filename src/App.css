@@ -1,29 +1,98 @@
-
 body {
 
+  display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  margin-top: 5%;
   font-family: 'Rajdhani', sans-serif;
 }
 
-.container{
-  margin: auto;
-  width: 40%;
+.titulo {
+  text-align: center;
+}
 
+.inputNew {
+  display: flex;
+  justify-items: center;
+  margin: 20px;
+  align-items: center;
+}
+
+.container {
+
+  width: 100%;
+  margin: auto;
   border: 2px solid rgb(224, 85, 201);
   border-radius: 5%;
   background-color: #9e9393;
   padding: 20px;
   color: aliceblue;
-  box-shadow: 5px 8px 10px rgb(82, 82, 82) ;
-  
+  box-shadow: 5px 8px 10px rgb(82, 82, 82);
+
 }
 
-.add-btn{
+.add-btn {
   float: right;
   background-color: rgb(231, 67, 67);
   color: aliceblue;
-  border-radius: 3%;
+  border-radius: 30%;
+  padding: 2px 10px;
+  border: none;
+
 }
 
+.presenta {
+  width: 40%;
+  margin: auto;
+  margin-top: 20px;
+  border: 2px solid rgb(224, 85, 201);
+  border-radius: 5%;
+  background-color: rgba(151, 104, 143, 0.4);
+  padding: 20px;
+  color: rgb(62, 57, 65);
+  box-shadow: 5px 8px 10px rgb(82, 82, 82);
+
+}
+
+
+.addtaskinput {
+  padding: 5px;
+  border-radius: 5%;
+  margin-right: 20px;
+  border: none;
+  width: 200px;
+}
+
+
+
+.presenta img {
+  width: 30%;
+  border-radius: 100%;
+}
+
+.submit {
+  padding: 2px 20px;
+  border: none;
+  border-radius: 5%;
+  box-shadow: 5px 5px 10px rgba(20, 81, 134, 0.5);
+
+}
+
+.submit:hover {
+  box-shadow: 5px 5px 10px rgba(134, 20, 126, 0.5);
+  background-color: rgb(148, 132, 162);
+  color: aliceblue;
+}
+
+.submit:active {
+  box-shadow: 5px 5px 10px rgba(134, 20, 126, 0.5);
+  background-color: rgb(148, 132, 162);
+  color: rgb(0, 0, 0);
+}
+
+span {
+  color: rgb(255, 255, 255);
+  background-color: #7e6f7b;
+  border-radius: 5%;
+  padding: 1px 1 px;
+}

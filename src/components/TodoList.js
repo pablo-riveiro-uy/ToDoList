@@ -1,17 +1,17 @@
 import React from 'react';
+import ToDoItem from './ToDoItem';
 
-
-export default function TodoList({todos}) {
+export default function TodoList({ todos, onComplete, onDeleteItem }) {
   return (
-    <div>
-        {
-            todos.map((todo)=>{
-                return(
-                    <div>{todo.task}</div>
-                )
-            })
-        }
+    <>
+      {
+        todos.map((todo, index) => {
+          return (
+            <ToDoItem key={`Tarea - ${index}`} todo={todo} onComplete={onComplete} onDeleteItem={onDeleteItem} />
+          )
+        })
+      }
 
-    </div>
+    </>
   )
 }

@@ -1,22 +1,17 @@
 [
     {
         "id": 1,
-        "task": "ir de compras",
+        "task": "Agrega una tarea",
         "complete": false
     },
     {
         "id": 2,
-        "task": "lavar los platos",
-        "complete": false
-    },
-    {
-        "id": 3,
-        "task": "cocinar",
+        "task": "Tacha la que ya hayas hecho",
         "complete": true
     },
     {
-        "id": 4,
-        "task": "lavar la ropas",
+        "id": 3,
+        "task": "Borra estas tareas de ejemplo",
         "complete": false
     }
 ]
