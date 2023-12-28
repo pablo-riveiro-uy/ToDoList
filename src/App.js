@@ -30,7 +30,6 @@ function App() {
 	return (
 		<>
 			<div className='principal'>
-
 				<Presentacion />
 				<div className="container">
 					<div className="titulo">
