@@ -176,9 +176,10 @@ a:hover {
 	width: 20%;
 
   height: max-content;
+  margin-top: 5%;
   margin-bottom: 5%px;
   margin-right: 3%;
-  margin-left: 5%;
+  margin-left: 10%;
   padding: 20px 40px;
   color: rgb(242, 242, 242);
   box-shadow: 5px 8px 10px rgb(82, 82, 82);
