@@ -30,7 +30,10 @@ function App() {
 	return (
 		<>
 			<div className='principal'>
-				<Presentacion />
+				<div className="profile">
+
+					<Presentacion />
+				</div>
 				<div className="container">
 					<div className="titulo">
 						<h1>Lista de Tareas</h1>

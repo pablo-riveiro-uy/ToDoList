@@ -37,19 +37,7 @@ a:hover {
 	background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(95, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
 }
 
-@media only screen and (min-width: 769px) {
-	.principal .profile {
-			margin-top: 5%;
-				width: 20%;
-			
-				height: max-content;
-				margin-top: 5%;
-				margin-bottom: 5%px;
-				margin-right: 3%;
-				margin-left: 10%;
-				padding: 20px 40px;
-	}
-}
+
 @media only screen and (max-width: 768px) {
 
 	/* For mobile phones: */
