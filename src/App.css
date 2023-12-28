@@ -40,11 +40,12 @@ a:hover {
 
 	/* For mobile phones: */
 	.principal .profile {
-		width: 50%;
+		width: 90%;
 		margin: auto;
+
 		display: flex;
 		flex-direction: row;
-		padding: 2% 10%;
+		padding: 2% 15%;
 
 	}
 	.principal .profile img {
@@ -81,6 +82,7 @@ a:hover {
 	}
 	.principal .footer {
 		margin-top: 2%;
+		width: 90%;
 	}
 	.principal {
 		align-content: flex-start;
