@@ -13,5 +13,15 @@
         "id": 3,
         "task": "Borra estas tareas de ejemplo",
         "complete": false
+    },
+    {
+        "id": 5,
+        "task": "Pensar..., Pablo parece un desarrollador interesante",
+        "complete": false
+    },
+    {
+        "id": 4,
+        "task": "Enviar un mail a Pablo en priveiro@gmail.com",
+        "complete": false
     }
 ]
