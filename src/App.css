@@ -82,6 +82,8 @@ a:hover {
 	}
 	.principal .footer {
 		margin-top: 2%;
+		height: 5%;
+		padding: 0% 4%;
 		width: 90%;
 	}
 	.principal {
@@ -251,4 +253,19 @@ span {
 	justify-content: center;
 	justify-items: center;
 	;
+}
+
+/* mobile first */
+.element {
+	margin: 0 10;
+	transform: translate3d(0, 0, 0);
+	z-index: 50;
+	display: block;
+
+}
+
+@media only screen and (min-width: 980px) {
+	.element {
+		all: none;
+	}
 }
