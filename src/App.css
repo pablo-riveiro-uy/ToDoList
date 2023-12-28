@@ -50,6 +50,7 @@ a:hover {
 	.principal .profile img {
 		width: 90px;
 		height: 90px;
+
 		margin-right: 10%;
 		align-self: center;
 
@@ -68,6 +69,11 @@ a:hover {
 
 	.principal .container {
 		padding: 2%;
+		width: 90%;
+	}
+
+	.principal .container .addtaskinput {
+		width: 90%;
 	}
 	.principal .container .task {
 		margin-top: 10px;
@@ -162,8 +168,9 @@ a:hover {
 
 
 .profile {
-	margin-top: 3%;
-	width: 30%;
+	margin-top: 5%;
+	width: 20%;
+
   height: max-content;
   margin-bottom: 5%px;
   margin-right: 3%;
