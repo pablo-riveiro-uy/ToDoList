@@ -81,8 +81,9 @@ a:hover {
 		
 	}
 	.principal .footer {
-		margin-top: 2%;
-		height: 5%;
+		margin-top: 4%;
+		height: fit-content;
+		margin-bottom: 5%;
 		padding: 0% 4%;
 		width: 90%;
 	}
